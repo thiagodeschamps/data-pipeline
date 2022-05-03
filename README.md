@@ -1,5 +1,9 @@
 # data-pipeline
 
+dependencies python:
+- kafka-python
+- requests
+
 and end-to-end data streaming pipeline project
 
 - setting up apache kafka
