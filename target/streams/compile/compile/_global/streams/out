@@ -1,0 +1,16 @@
+[0m[[0m[31merror[0m] [0m[0m/home/thiago/my_github/data-pipeline/src/main/scala/StreamHandler.scala:1:25: object sql is not a member of package org.apache.spark[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql._[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/thiago/my_github/data-pipeline/src/main/scala/StreamHandler.scala:2:25: object sql is not a member of package org.apache.spark[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.functions._[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/thiago/my_github/data-pipeline/src/main/scala/StreamHandler.scala:3:25: object sql is not a member of package org.apache.spark[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.streaming._[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/thiago/my_github/data-pipeline/src/main/scala/StreamHandler.scala:4:25: object sql is not a member of package org.apache.spark[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.types._[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/thiago/my_github/data-pipeline/src/main/scala/StreamHandler.scala:9:21: not found: value SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m        val spark = SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m

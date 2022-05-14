@@ -75,8 +75,6 @@ func produce(ctx context.Context) {
 		}
 		msg, _ := json.Marshal(res1D)
 
-		fmt.Printf(string(msg))
-
 		err := w.WriteMessages(ctx, kafka.Message{
 			Key: []byte(strconv.Itoa(i)),
 			// create an arbitrary message payload for the value
